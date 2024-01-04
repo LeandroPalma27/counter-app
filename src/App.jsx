@@ -1,10 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export const App = ({ CounterApp }) => {
-  return <>{CounterApp}</>;
+export const App = (props) => {
+  return <></>;
 };
 
-App.propTypes = {
-  CounterApp: PropTypes.element,
-};

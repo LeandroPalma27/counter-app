@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
-const [counter, setState] = useState(value);
-
-const handleValue = () => {
-  setState(counter + 1);
-};
-
-const handleSubstract = () => {
-  setState(counter -1);
-}
-
-const handleReset = () => {
-  setState(0);
-}
-
 export const CounterApp = ({ value }) => {
+  
+  const [counter, setState] = useState(value);
+  
+  const handleValue = () => {
+    setState(counter + 1);
+  };
+  
+  const handleSubstract = () => {
+    setState(counter -1);
+  }
+  
+  const handleReset = () => {
+    setState(value);
+  }
 
   return (
     <>

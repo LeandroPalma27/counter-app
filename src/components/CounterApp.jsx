@@ -13,7 +13,7 @@ export const CounterApp = ({ value }) => {
     <>
       <h1>CounterApp</h1>
       <h2>{counter}</h2>
-      <button onClick={handleValue}>+1</button>
+      <button onClick={handleValue}>+1 (FUNCTIONAL COMPONENT)</button>
     </>
   );
 };
